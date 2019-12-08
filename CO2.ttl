@@ -1,0 +1,467 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema/> .
+@prefix dbpfr:  <http://fr.dbpedia.org/resource/> .
+@prefix rdfs:  <https://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://schema.org/variableMeasured/Af2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "Africa" ;
+        dbo:value     1028.0 .
+
+<https://schema.org/variableMeasured/So2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1132.6 .
+
+<https://schema.org/variableMeasured/Mi2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1620.5 .
+
+<https://schema.org/variableMeasured/Eu2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "Europe" ;
+        dbo:value     4965.7 .
+
+<https://schema.org/variableMeasured/No2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "North America" ;
+        dbo:value     6600.4 .
+
+<https://schema.org/variableMeasured/As2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     12654.7 .
+
+<https://schema.org/variableMeasured/Co2008>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2008 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     1993.0 .
+
+<https://schema.org/variableMeasured/Af2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "Africa" ;
+        dbo:value     1041.9 .
+
+<https://schema.org/variableMeasured/So2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1093.1 .
+
+<https://schema.org/variableMeasured/Mi2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1656.5 .
+
+<https://schema.org/variableMeasured/Eu2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "Europe" ;
+        dbo:value     4616.4 .
+
+<https://schema.org/variableMeasured/No2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "North America" ;
+        dbo:value     6139.9 .
+
+<https://schema.org/variableMeasured/As2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     13246.6 .
+
+<https://schema.org/variableMeasured/Co2009>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2009 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     1875.7 .
+
+<https://schema.org/variableMeasured/Af2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "Africa" ;
+        dbo:value     1072.1 .
+
+<https://schema.org/variableMeasured/So2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1164.2 .
+
+<https://schema.org/variableMeasured/Mi2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1736.2 .
+
+<https://schema.org/variableMeasured/Eu2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "Europe" ;
+        dbo:value     4705.8 .
+
+<https://schema.org/variableMeasured/No2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "North America" ;
+        dbo:value     6375.8 .
+
+<https://schema.org/variableMeasured/As2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     13986.8 .
+
+<https://schema.org/variableMeasured/Co2010>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2010 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     1939.1 .
+
+<https://schema.org/variableMeasured/Af2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "Africa" ;
+        dbo:value     1073.7 .
+
+<https://schema.org/variableMeasured/So2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1215.5 .
+
+<https://schema.org/variableMeasured/Mi2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1789.0 .
+
+<https://schema.org/variableMeasured/Eu2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "Europe" ;
+        dbo:value     4615.2 .
+
+<https://schema.org/variableMeasured/No2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "North America" ;
+        dbo:value     6262.8 .
+
+<https://schema.org/variableMeasured/As2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     14860.1 .
+
+<https://schema.org/variableMeasured/Co2011>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2011 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2035.2 .
+
+<https://schema.org/variableMeasured/Af2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "Africa" ;
+        dbo:value     1107.1 .
+
+<https://schema.org/variableMeasured/So2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1262.0 .
+
+<https://schema.org/variableMeasured/Mi2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1853.3 .
+
+<https://schema.org/variableMeasured/Eu2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "Europe" ;
+        dbo:value     4541.5 .
+
+<https://schema.org/variableMeasured/No2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "North America" ;
+        dbo:value     5998.9 .
+
+<https://schema.org/variableMeasured/As2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     15308.8 .
+
+<https://schema.org/variableMeasured/Co2012>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2012 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2063.2 .
+
+<https://schema.org/variableMeasured/Af2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "Africa" ;
+        dbo:value     1134.4 .
+
+<https://schema.org/variableMeasured/So2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1308.9 .
+
+<https://schema.org/variableMeasured/Mi2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1926.3 .
+
+<https://schema.org/variableMeasured/Eu2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "Europe" ;
+        dbo:value     4436.9 .
+
+<https://schema.org/variableMeasured/No2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "North America" ;
+        dbo:value     6167.0 .
+
+<https://schema.org/variableMeasured/As2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     15660.2 .
+
+<https://schema.org/variableMeasured/Co2013>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2013 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2014.7 .
+
+<https://schema.org/variableMeasured/Af2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "Africa" ;
+        dbo:value     1167.1 .
+
+<https://schema.org/variableMeasured/So2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1331.3 .
+
+<https://schema.org/variableMeasured/Mi2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "Middle East" ;
+        dbo:value     1965.2 .
+
+<https://schema.org/variableMeasured/Eu2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "Europe" ;
+        dbo:value     4202.0 .
+
+<https://schema.org/variableMeasured/No2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "North America" ;
+        dbo:value     6268.9 .
+
+<https://schema.org/variableMeasured/As2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     15787.7 .
+
+<https://schema.org/variableMeasured/Co2014>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2014 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2027.6 .
+
+<https://schema.org/variableMeasured/Af2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "Africa" ;
+        dbo:value     1174.5 .
+
+<https://schema.org/variableMeasured/So2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1321.7 .
+
+<https://schema.org/variableMeasured/Mi2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "Middle East" ;
+        dbo:value     2019.5 .
+
+<https://schema.org/variableMeasured/Eu2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "Europe" ;
+        dbo:value     4191.6 .
+
+<https://schema.org/variableMeasured/No2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "North America" ;
+        dbo:value     6048.7 .
+
+<https://schema.org/variableMeasured/As2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     15877.0 .
+
+<https://schema.org/variableMeasured/Co2015>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2015 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     1986.8 .
+
+<https://schema.org/variableMeasured/Af2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "Africa" ;
+        dbo:value     1192.1 .
+
+<https://schema.org/variableMeasured/So2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1294.7 .
+
+<https://schema.org/variableMeasured/Mi2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "Middle East" ;
+        dbo:value     2061.5 .
+
+<https://schema.org/variableMeasured/Eu2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "Europe" ;
+        dbo:value     4247.3 .
+
+<https://schema.org/variableMeasured/No2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "North America" ;
+        dbo:value     5938.3 .
+
+<https://schema.org/variableMeasured/As2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     15984.0 .
+
+<https://schema.org/variableMeasured/Co2016>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2016 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     1997.4 .
+
+<https://schema.org/variableMeasured/Af2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "Africa" ;
+        dbo:value     1207.0 .
+
+<https://schema.org/variableMeasured/So2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1279.2 .
+
+<https://schema.org/variableMeasured/Mi2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "Middle East" ;
+        dbo:value     2078.7 .
+
+<https://schema.org/variableMeasured/Eu2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "Europe" ;
+        dbo:value     4278.7 .
+
+<https://schema.org/variableMeasured/No2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "North America" ;
+        dbo:value     5920.5 .
+
+<https://schema.org/variableMeasured/As2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     16274.3 .
+
+<https://schema.org/variableMeasured/Co2017>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2017 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2001.3 .
+
+<https://schema.org/variableMeasured/Af2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "Africa" ;
+        dbo:value     1235.5 .
+
+<https://schema.org/variableMeasured/So2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "South and Central America" ;
+        dbo:value     1261.5 .
+
+<https://schema.org/variableMeasured/Mi2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "Middle East" ;
+        dbo:value     2118.3 .
+
+<https://schema.org/variableMeasured/Eu2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "Europe" ;
+        dbo:value     4209.3 .
+
+<https://schema.org/variableMeasured/No2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "North America" ;
+        dbo:value     6035.6 .
+
+<https://schema.org/variableMeasured/As2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "Asia Pacific" ;
+        dbo:value     16274.1 .
+
+<https://schema.org/variableMeasured/Co2018>
+        rdf:type      dbpfr:Émission_de_dioxyde_de_carbone ;
+        dbo:year      2018 ;
+        dbo:location  "Commonwealth of Independent States" ;
+        dbo:value     2100.5 .
