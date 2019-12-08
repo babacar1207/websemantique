@@ -1,0 +1,16 @@
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX m3lite:  <http://purl.org/iot/vocab/m3-lite#/>
+PREFIX rdfs: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema/>
+PREFIX dbpfr:  <http://fr.dbpedia.org/resource/>
+
+select (MIN(?vCO2) as ?vCO2_MIN) (MAX(?vCO2) as ?vCO2_MAX)
+       (MIN(?indice) as ?Indice_MIN) (MAX(?indice) as ?Indice_MAX)
+where {
+	?x dbo:year ?annee;
+	   dbo:value ?vCO2.
+	filter (?annee=2016)
+	?y <http://purl.org/iot/vocab/m3-lite#/Indice_ATMO> ?indice;
+	   <http://dbpedia.org/ontology/date> ?date.
+       filter (regex (?date,'^2016'))
+}
