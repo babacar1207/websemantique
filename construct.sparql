@@ -1,0 +1,29 @@
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX m3lite:  <http://purl.org/iot/vocab/m3-lite#/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+CONSTRUCT {
+
+  ?URI a m3lite:pollution;
+    dbo:ville ?ville;
+    dbo:date ?date;
+    m3lite:Indice_ATMO ?Indice_ATMO;
+    m3lite:Indice_ozone ?Indice_ozone;
+    m3lite:Indice_particules_fines ?Indice_particules_fines;
+    m3lite:Indice_dioxyde_dazote ?Indice_dioxyde_dazote;
+    m3lite:Indice_dioxyde_de_soufre ?Indice_dioxyde_de_soufre;
+    dbo:Code_couleur ?Code_couleur;
+
+} 
+
+FROM<file:donneesIn.csv>
+
+WHERE {
+  BIND (URI(CONCAT('http://purl.org/iot/vocab/m3-lite#/indice-pollution-journalier/', ?ville, '_', ?date)) AS ?URI)
+  BIND (xsd:integer(?IndiceATMO) AS ?Indice_ATMO)
+  BIND (xsd:integer(?IndiceO) AS ?Indice_ozone)
+  BIND (xsd:integer(?IndiceP) AS ?Indice_particules_fines)
+  BIND (xsd:integer(?IndiceA) AS ?Indice_dioxyde_dazote)
+  BIND (xsd:integer(?IndiceS) AS ?Indice_dioxyde_de_soufre)
+}
