@@ -1,0 +1,16 @@
+prefix dbp:  <http://www.dbpedia.org/property/>
+select ?pays ?rang (min(?Indice_atmo) as ?Min_Indice_Atmos) (max(?Indice_atmo) as ?Max_Indice_Atmos)  
+where{
+	
+   ?z   <http://purl.org/iot/vocab/m3-lite#/Indice_ATMO>  ?Indice_atmo;
+      <http://dbpedia.org/ontology/date> ?date.
+    ?x dbp:name  ?pays ;
+        dbp:rank  ?rang.
+   
+
+
+        filter (regex( ?date,'^2017') && ?pays="France") 
+
+
+}
+group by ?pays ?rang
