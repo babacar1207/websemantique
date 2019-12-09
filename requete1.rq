@@ -1,0 +1,15 @@
+PREFIX dbo: <http://fr.dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX m3lite:  <http://purl.org/iot/vocab/m3-lite#/>
+
+select ?date ?atmo ?ozone ?fine ?azote ?soufre
+where {
+	?x dbo:date ?date;
+	   m3lite:Indice_ATMO ?atmo;
+	   m3lite:Indice_ozone ?ozone;
+	   m3lite:Indice_particules_fines ?fines;
+	   m3lite:Indice_dioxyde_dazote ?azote;
+	   m3lite:Indice_dioxyde_de_soufre ?soufre.
+	   filter(?atmo=?azote && ?atmo!=?ozone && ?atmo!=fines && ?atmo!=?soufre)
+}
