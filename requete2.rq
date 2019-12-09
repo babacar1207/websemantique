@@ -1,0 +1,10 @@
+REFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX m3lite:  <http://purl.org/iot/vocab/m3-lite#/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?date ?atmo
+where {
+   ?x dbo:date ?date;
+      m3lite:Indice_ATMO ?atmo.
+      filter(?atmo="2" || ?atmo="1")
+}
